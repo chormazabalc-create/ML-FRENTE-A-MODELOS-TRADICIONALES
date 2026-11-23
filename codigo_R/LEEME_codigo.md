@@ -17,7 +17,7 @@ Esta carpeta contiene el flujo completo que produce los resultados del documento
    - Prueba rápida del código antes de la corrida completa: en la consola `Sys.setenv(TESIS_MODO_RAPIDO = "1")` y luego Source de `ejecutar_todo.R` (grillas y árboles reducidos; los resultados de esa prueba no son los del documento). Para la corrida definitiva, `Sys.setenv(TESIS_MODO_RAPIDO = "0")`.  
    - Para omitir la robustez con horizonte de cuatro semanas, que repite la estimación de todos los modelos: `CORRER_H4 <- FALSE` antes de ejecutar.
 
-Paquetes (se instalan solos si faltan): data.table, curl, jsonlite, glmnet, ranger, xgboost, pROC, ggplot2, sandwich, nnet. Opcional: quantmod, rstudioapi. El flujo se desarrolló con R 4.3.3; con otras versiones de los paquetes pueden aparecer diferencias mínimas en los modelos que usan números aleatorios.
+Paquetes (se instalan solos si faltan): data.table, curl, jsonlite, glmnet, ranger, xgboost, pROC, ggplot2, sandwich, nnet. Opcional: quantmod, rstudioapi. La corrida presentada en la tesis se hizo con R 4.4.1 (ver sesion_R.txt); con otras versiones de R o de los paquetes pueden aparecer diferencias en los modelos que usan números aleatorios, en especial en la red neuronal.
 
 ## Scripts
 
