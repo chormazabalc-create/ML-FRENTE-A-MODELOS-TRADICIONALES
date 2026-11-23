@@ -1,0 +1,6 @@
+modelo_anidado,modelo_amplio,semanas,media_f,estadistico_CW,p_valor_unilateral
+logit_simple,logit_completo,313,0.001158,1.5177,0.0645
+logit_simple,elastic_net,313,0.000848,1.3194,0.0935
+logit_simple,random_forest,313,0.001394,1.9837,0.0236
+logit_simple,xgboost,313,0.00048,0.8101,0.2089
+logit_simple,red_neuronal,313,0.00033,0.3164,0.3758

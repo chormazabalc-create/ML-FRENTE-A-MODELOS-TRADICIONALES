@@ -1,0 +1,25 @@
+anio_prueba,modelo,hiperparametros,logloss_validacion
+2020,elastic_net,alpha=0.00; lambda=0.03293; variables activas=38,0.688994581517661
+2020,random_forest,árboles=300; mtry=12; min.node.size=500,0.689403159294748
+2020,xgboost,max_depth=2; eta=0.05; min_child_weight=10; rondas=36,0.690003487709725
+2020,red_neuronal,neuronas=4; decay=0.01; semillas=5,0.692485528043561
+2021,elastic_net,alpha=0.00; lambda=5.60501; variables activas=38,0.692186477957418
+2021,random_forest,árboles=300; mtry=3; min.node.size=100,0.692198799781932
+2021,xgboost,max_depth=2; eta=0.05; min_child_weight=100; rondas=1,0.692504778097268
+2021,red_neuronal,neuronas=4; decay=0.01; semillas=5,0.707468340766277
+2022,elastic_net,alpha=1.00; lambda=0.01582; variables activas=2,0.692065790861282
+2022,random_forest,árboles=300; mtry=3; min.node.size=100,0.693767823901896
+2022,xgboost,max_depth=1; eta=0.05; min_child_weight=10; rondas=1,0.69292437854342
+2022,red_neuronal,neuronas=4; decay=0.1; semillas=5,0.699841522128594
+2023,elastic_net,alpha=0.00; lambda=0.19556; variables activas=38,0.688899489073512
+2023,random_forest,árboles=300; mtry=3; min.node.size=500,0.692793159629195
+2023,xgboost,max_depth=2; eta=0.05; min_child_weight=10; rondas=51,0.6896495526194
+2023,red_neuronal,neuronas=8; decay=0.1; semillas=5,0.700347211363078
+2024,elastic_net,alpha=0.00; lambda=0.00712; variables activas=38,0.688995887484016
+2024,random_forest,árboles=300; mtry=6; min.node.size=100,0.689787927420585
+2024,xgboost,max_depth=1; eta=0.05; min_child_weight=10; rondas=562,0.689245777147926
+2024,red_neuronal,neuronas=4; decay=0.01; semillas=5,0.696913183366961
+2025,elastic_net,alpha=0.00; lambda=0.79251; variables activas=38,0.692188407922219
+2025,random_forest,árboles=300; mtry=3; min.node.size=500,0.69463348833661
+2025,xgboost,max_depth=4; eta=0.05; min_child_weight=100; rondas=3,0.692323961288348
+2025,red_neuronal,neuronas=4; decay=0.1; semillas=5,0.694758856789188

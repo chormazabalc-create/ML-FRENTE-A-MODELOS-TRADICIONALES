@@ -1,0 +1,22 @@
+periodo,modelo,n,auc,accuracy,brier,log_loss
+2020 (pandemia),elastic_net,5263,0.5261,0.5009,0.2549,0.7031
+2020 (pandemia),ingenuo,5263,0.5,0.5223,0.2497,0.6925
+2020 (pandemia),logit_completo,5263,0.5268,0.5045,0.2561,0.7059
+2020 (pandemia),logit_simple,5263,0.5316,0.5242,0.2489,0.6908
+2020 (pandemia),random_forest,5263,0.5265,0.5216,0.2525,0.6983
+2020 (pandemia),red_neuronal,5263,0.493,0.4853,0.2597,0.713
+2020 (pandemia),xgboost,5263,0.5117,0.5085,0.2534,0.7002
+2022 (alza de tasas),elastic_net,5276,0.5504,0.5356,0.2479,0.6888
+2022 (alza de tasas),ingenuo,5276,0.5,0.5309,0.2494,0.692
+2022 (alza de tasas),logit_completo,5276,0.5443,0.5263,0.2491,0.6913
+2022 (alza de tasas),logit_simple,5276,0.542,0.5402,0.2481,0.6893
+2022 (alza de tasas),random_forest,5276,0.5337,0.5351,0.2492,0.6916
+2022 (alza de tasas),red_neuronal,5276,0.5091,0.5057,0.2525,0.6982
+2022 (alza de tasas),xgboost,5276,0.5689,0.5589,0.2488,0.6908
+resto de los años,elastic_net,21247,0.5404,0.5259,0.2491,0.6912
+resto de los años,ingenuo,21247,0.4951,0.4964,0.2502,0.6936
+resto de los años,logit_completo,21247,0.5374,0.5267,0.2491,0.6914
+resto de los años,logit_simple,21247,0.531,0.5214,0.2495,0.6922
+resto de los años,random_forest,21247,0.5293,0.5196,0.2502,0.6938
+resto de los años,red_neuronal,21247,0.5245,0.5166,0.2509,0.695
+resto de los años,xgboost,21247,0.5175,0.5012,0.2502,0.6936
